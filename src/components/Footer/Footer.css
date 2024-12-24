@@ -1,0 +1,120 @@
+.footer {
+    height: 500px;
+    background-color: rgba(58, 100, 59, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer h3 {
+    color: #3A643B;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    color: #474747;
+    font-weight: 300;
+    line-height: 150%;
+    font-size: 18px;
+    padding: 0;  
+    margin: 0;   
+}
+
+.footer li {
+    margin-bottom: 12px;
+}
+
+/* Hide mobile sections on desktop */
+.mobile-only {
+    display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .footer {
+        height: auto;
+        background-color: #E8F3E7;
+        padding: 40px 20px;
+        display: block;
+    }
+
+    /* Show mobile sections */
+    .mobile-only {
+        display: block;
+    }
+
+    .contact-section {
+        margin-bottom: 40px;
+    }
+
+    .email, .address, .phone {
+        color: #474747;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 8px;
+        margin-top: 22px;
+        flex-wrap: wrap;
+    }
+
+    .social-icon {
+        background: #3A643B;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social-icon img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .newsletter-section {
+        margin-bottom: 40px;
+    }
+
+    .subscribe-form {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        max-width: 303px;
+        padding: 30px;
+    }
+
+    .email-input {
+        padding: 12px 20px;
+        border: 1px solid #3A643B;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+        background: transparent;
+        width: 100%;
+        font-size: 10px;
+    }
+    
+    .subscribe-button {
+        background: #000;
+        color: white;
+        border: none;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 12px 24px;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .footer h3 {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .footer ul {
+        font-size: 16px;
+    }
+}

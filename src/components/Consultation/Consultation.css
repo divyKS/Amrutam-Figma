@@ -1,0 +1,136 @@
+.consult-wrapper {
+    height: 876px;
+    background-color: var(--website-yellow);
+    padding: 79px 0px 0px 0px;
+}
+
+.consult-title {
+    height: 61px;
+    max-width: 910px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 46px;
+    text-align: center;
+    color: var(--website-green);
+    margin-bottom: 56px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.consult-title::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+    width: 100%;
+    height: 5px;
+    background-color: #C3D0C4;
+}
+
+.consult-card-container {
+    height: 579px;
+    max-width: 1240px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-row {
+    height: 286px;
+    display: grid;
+    grid-template-columns: 4.34fr 3.08fr 2.58fr;
+    gap: 16px;
+}
+
+.first-row .sanskrit-card {
+    padding: 48px 32px;
+    background: white;
+    max-height: fit-content;
+    max-height: fit-content;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border-top: 4px solid var(--website-green) ;
+}
+
+.first-row .image-card {
+    transform: translateY(-2%);
+}
+
+.sanskrit-text {
+    color: var(--website-green);
+    font-size: 32px;
+    line-height: 159%;
+    font-weight: 600;
+}
+
+.sanskrit-meaning {
+    color: var(--website-green);
+    font-size: 18px;
+    padding: 0;
+    margin: 19px 9.5px 0px 9.5px;
+    font-weight: 300;
+}
+
+.first-row .text-card {
+    padding: 48px 24px 48px 24px;
+    background: white;
+    max-height: fit-content;
+    max-height: fit-content;
+    align-content: center;
+    border-radius: 20px;
+    border-top: 4px solid var(--website-green) ;
+}
+
+.first-row .text-card div {
+    color: var(--website-green);
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.first-row .text-card p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #414141;
+}
+
+.second-row {
+    height: 277px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    align-items: center;
+}
+
+.second-row .text-card {
+    padding: 48px 24px 48px 24px;
+    background: white;
+    max-height: fit-content;
+    max-height: fit-content;
+    align-content: center;
+    border-radius: 20px;
+    border-top: 4px solid var(--website-green) ;
+}
+
+.second-row .text-card div {
+    color: var(--website-green);
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.second-row .text-card p{
+    font-size: 20px;
+    font-weight: 300;
+    color: #414141;
+}
+
+.second-row .image-card {
+    /* transform: translateY(-2%); */
+}
+

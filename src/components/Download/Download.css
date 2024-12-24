@@ -1,0 +1,114 @@
+.app-landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem;
+    background-color: var(--website-yellow);
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-section {
+    flex: 1;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.app-title {
+    color: #2D5A27;
+    font-size: 48px;
+    margin-bottom: 16px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+.app-description {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.consultation-title {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 65px;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.download-section {
+    margin-top: 3rem;
+}
+
+.download-title {
+    font-size: 1.75rem;
+    color: #000;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.store-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.store-button {
+    height: 80px;
+    width: 270px;
+    object-fit: contain;
+}
+
+.phone-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.phone-mockup {
+    max-width: 734px;
+    height: 565px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .app-landing {
+        padding: 3rem 4rem;
+    }
+
+    .app-title {
+        font-size: 2.5rem;
+    }
+
+    .consultation-title {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-landing {
+        flex-direction: column;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .content-section {
+        margin-bottom: 3rem;
+    }
+
+    .store-buttons {
+        justify-content: center;
+    }
+
+    .phone-section {
+        margin-top: 2rem;
+    }
+
+    .phone-mockup {
+        max-width: 300px;
+    }
+}

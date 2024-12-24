@@ -1,0 +1,187 @@
+.wrapper-discover {
+    min-height: 849px;
+}
+
+.heading {
+    height: 164px;
+    max-width: 806px;
+    width: 100%;
+    margin: 62px auto 0px auto;
+}
+
+.title {
+    height: 56px;
+    max-width: 796px;
+    width: 100%;
+
+    color: var(--website-green);
+    font-size: 48px;
+    line-height: 54px;
+
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+
+.subtitle {
+    height: 84px;
+    max-width: 671px;
+    width: 100%;
+
+    color: #666666;
+    font-size: 20px;
+    line-height: 28px;
+
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+}
+
+.title::after {
+    content: "";
+    background-color: #C3D0C4;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    z-index: -1;
+}
+
+
+.discover-container {
+    height: 503px;
+    margin-top: 41px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-content img {
+    height: 503px;
+}
+
+.info-block {
+    height: 100px;
+    max-width: 349px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* border: 1px solid black; */
+    position: absolute;
+}
+
+.info-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.info-block div{
+    margin: 0;
+    padding: 0;
+}
+
+.info-block div h3 {
+    margin: 0px 0px 8px 0px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.info-block div p {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #515151;
+}
+
+/* Left side blocks */
+.personalized-wellness div{
+   display: flex;
+   flex-direction: column;
+   text-align: right;
+}
+
+.focus-prevention div{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.mind-body div{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+/* Right side blocks */
+.holistic-healing div{
+    display: flex;  
+    flex-direction: column;    
+}
+
+.natural-remedies div{
+    display: flex;
+    flex-direction: column;   
+}
+
+.boosting-immunity div{
+    display: flex;
+    flex-direction: column;
+} 
+
+/* Left side blocks */
+.personalized-wellness {
+    top: 10%;
+    left: 8%;
+}
+
+.focus-prevention {
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+
+.mind-body {
+    bottom: 10%;
+    left: 8%;
+}
+
+/* Right side blocks */
+.holistic-healing {
+    top: 10%;
+    right: 8%;
+}
+
+.natural-remedies {
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+}
+
+.boosting-immunity {
+    bottom: 10%;
+    right: 8%;
+} 
+
+@media (max-width:1040px) {
+    .title {
+        font-size: 42px;
+    }
+    
+    .title::after {
+        max-width: 770px;
+        left: 10px;
+    }   
+}

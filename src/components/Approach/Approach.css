@@ -1,0 +1,98 @@
+.approach-wrapper {
+    height: 759px;
+    padding-top: 95px;
+    padding-bottom: 106px;
+}
+
+.approach-wrapper .approach-header{
+    height: 164px;
+    max-width: 772px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 79px;
+}
+
+.approach-wrapper .approach-title {
+    height: 62px;
+    max-width: 593px;
+    width: 100%;
+    margin: 0 auto 24px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: var(--website-green);
+    position: relative;
+    font-size: 48px;
+    z-index: 1;
+}
+
+.approach-wrapper .approach-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    width: 100%;
+    height: 6px;
+    background: #C3D0C4;
+    pointer-events: none;
+}
+
+.approach-wrapper .approach-description {
+    font-size: 20px;
+    color: #323232;
+    text-align: center;
+    font-weight: 300;
+}
+
+.approach-desktop-cards {
+    display: flex;
+    max-width: 1232px;
+    width: 100%;
+    height: 315px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+}
+
+.approach-desktop-cards .approach-card {
+    background-color: var(--website-yellow);
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    border-top: 4px solid var(--website-green);
+}
+
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #3A643B;
+    opacity: .66;
+    border: 1px solid black;
+    font-size: 48px;
+    color: white;
+}
+
+.approach-content {
+    height: 134px;
+    text-align: center;
+}
+
+.approach-content div {
+    color: var(--website-green);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.approach-content p {
+    color: #2E2E2E;
+    font-weight: 300;
+}

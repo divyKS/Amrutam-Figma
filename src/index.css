@@ -1,0 +1,19 @@
+:root {
+    max-width: 1440px;
+    margin: 0 auto;
+    --website-yellow: #FFF7E2;
+    --website-green: #3A643B;
+    --website-gray: #C9C9C9;
+    --website-maroon: #951D1C;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif; 
+}
